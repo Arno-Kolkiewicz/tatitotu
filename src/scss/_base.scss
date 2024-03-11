@@ -3,6 +3,10 @@
 // ==================================== */
 
 :root {
+  --red-primaire: #FB2D2C;
+  --white: #fff;
+  --grey: #D9D9D9;
+  --black: #000;
 }
 
 /* ====================================
@@ -17,6 +21,7 @@
 
 html {
   font-size: 16px;
+  background: #1F1A1A;
 }
 
 body {
@@ -24,10 +29,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  padding: 50px;
+
   font-size: 1rem;
   line-height: 1.25;
-  font-family: "Trap";
-  font-weight: 500;
+  font-family: "Trap", serif;
+  font-weight: 400;
 }
 
 a {

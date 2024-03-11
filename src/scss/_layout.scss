@@ -1,11 +1,16 @@
-.row + .row {
-    margin-top: 16px;
-  }
-  
-  .row > .col,
-  .row > [class^=col-] {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: rgba(86, 61, 124, .15);
-    border: 1px solid rgba(86, 61, 124, .2);
-  }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline 2px;
+}
+
+nav {
+  width: 100%;
+  padding-left: 30%;
+  font-weight: 400;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}

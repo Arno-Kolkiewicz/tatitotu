@@ -1,13 +1,20 @@
 @font-face {
     font-family: "Trap";
-    font-weight: "black";
+    font-weight: 900;
     src: url(../Trap_font/Trap-Black.otf) format("opentype");
 }
 
 @font-face {
     font-family: "Trap";
-    font-weight: "bold";
+    font-weight: 700;
     src: url(../Trap_font/Trap-Bold.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: "Trap";
+    font-weight: 600;
+    src: url(../Trap_font/Trap-SemiBold.otf) format("opentype");
 }
 
 @font-face {
@@ -16,15 +23,9 @@
     src: url(../Trap_font/Trap-Medium.otf) format("opentype");
 }
 
-@font-face {
-    font-family: "Trap";
-    font-weight: "semiBold";
-    src: url(../Trap_font/Trap-SemiBold.otf) format("opentype");
-}
-
-
 @import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
 @import "modules/example";
 @import "modules/menu";
+@import "modules/button";

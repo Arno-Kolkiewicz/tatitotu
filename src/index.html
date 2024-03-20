@@ -37,7 +37,142 @@
     <div class="container">
       <div class="row">
         <div class="col-8 offset-2">
-          
+          <button class="button-square button-add-plug-in">+</button>
+          <div class="plug-in notif-welcome">
+            <h2>Bienvenue</h2>
+            <p>
+              Bienvenue sur notre site dédié à la conjugaison des verbes ! 
+              Ici, tu trouveras des exercices interactifs pour renforcer tes compétences linguistiques. 
+              Que tu sois débutant ou avancé, notre plateforme offre un apprentissage adapté à tous les niveaux. 
+              Bonne exploration !
+            </p>
+          </div>
+          <div class="plug-in verb">
+            <input type="text">
+            <div class="verb-added">
+
+              <label class="checkbox-toggle" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+              </label>
+
+            </div>
+          </div>
+          <div class="plug-in time">
+            <h2>Temps conjugaison</h2>
+            <div class="time-container-button">
+              <button class="button">indicatif</button>
+              <button class="button">impératif</button>
+              <button class="button">participe</button>
+              <button class="button">conditionnel</button>
+              <button class="button">gérondif</button>
+            </div>
+            <div class="time-selection">
+              <div class="time-selection-col">
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx1">
+                    <input type="checkbox" id="chckbx1" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>présent</p>
+                </div>
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx2">
+                    <input type="checkbox" id="chckbx2" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>Imparfait</p>
+                </div>
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx3">
+                    <input type="checkbox" id="chckbx3" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>futur</p>
+                </div>
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx4">
+                    <input type="checkbox" id="chckb4" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>passé simple</p>
+                </div>
+              </div>
+              <div class="time-selection-col">
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx5">
+                    <input type="checkbox" id="chckb5" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>passé composé</p>
+                </div>
+
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx6">
+                    <input type="checkbox" id="chckb6" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>plus-que-parfait</p>
+                </div>
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx7">
+                    <input type="checkbox" id="chckb7" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>futur antérieur</p>
+                </div>
+
+                <div class="time-selection-container">
+                  <span class="time-selection-information-button">i</span>
+                  <label class="checkbox-toggle" for="chckbx8">
+                    <input type="checkbox" id="chckbx8" />
+                    <div class="slider round"></div>
+                  </label>
+                  <p>passé antérieur</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="plug-in additional-option">
+            <h2>Option supplémentaire</h2>
+            <div class="additional-option-container additional-option-number-question">
+              <p>Nombre de question :</p>
+              <select name="number-question" id="number-question" class="button button-rectangle button-wide">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+              </select>
+            </div>
+            <div class="additional-option-container additional-option-type-question">
+              <p>Option réponse :</p>
+              <div class="button-selection">
+                <input class="input-left" type="checkbox" id="checkbox1" name="checkbox" onchange="exclusiveCheck(this)"/>
+                <label class="selection selection-left" for="checkbox1">
+                  <p>Normal</p>
+                </label>
+                <input class="input-right" type="checkbox" id="checkbox2" name="checkbox" onchange="exclusiveCheck(this)"/>
+                <label class="selection selection-right" for="checkbox2">
+                  <p>Mode+Temps</p>
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

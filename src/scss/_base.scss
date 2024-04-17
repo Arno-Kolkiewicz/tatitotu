@@ -9,6 +9,7 @@
   --black: #000;
   --blue-secondary-dark: #2E2282; 
   --blue-sky: #879BC4;
+  --dark-grey: #8C8C8C;
 }
 
 /* ====================================
@@ -54,4 +55,9 @@ video {
 // base rules
 // ==================================== */
 
-
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

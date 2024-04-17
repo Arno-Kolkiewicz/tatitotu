@@ -25,6 +25,12 @@
     padding: 6px 50px;
 }
 
-.button-rectangle {
+.button-square {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    background: var(--grey);
     border-radius: 6px;
 }

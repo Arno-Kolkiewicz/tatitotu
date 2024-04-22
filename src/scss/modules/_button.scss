@@ -1,6 +1,6 @@
 .button {
     display: flex;
-    padding: 6px 16px;
+    padding: 8px 16px;
     justify-content: center;
     align-items: center;
 
@@ -33,4 +33,20 @@
     border: none;
     background: var(--grey);
     border-radius: 6px;
+}
+
+.button-rod:hover {
+    text-decoration: line-through;
+}
+
+.button:hover {
+    background: var(--blue-secondary-dark);
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+.button-add-plug-in {
+    margin: 25px;
 }

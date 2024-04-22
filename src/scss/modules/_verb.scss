@@ -1,3 +1,7 @@
+.verb {
+    padding: 25px 75px;
+}
+
 .verb-added {
     display: flex;
     justify-content: space-between;
@@ -5,4 +9,12 @@
 
 .verb-added-colmun {
     width: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.verb-input-add {
+    height: 40px;
 }
